@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1c5a730c30c66740b8f01feb43f9b14, type: 3}
+  m_Name: Bow
+  m_EditorClassIdentifier: 
+  group: 1
+  sprite: {fileID: 21300000, guid: 8983d53fe26a35841b99eacefe653abf, type: 3}
+  prefab: {fileID: 5369524199999241478, guid: e9cceb0bfc6f2a043833560a5c615fe8, type: 3}
+  target_slot: 4
+  occupied_slots: 0400000008000000
+  elements:
+  - prefab: {fileID: 5369524199999241478, guid: e9cceb0bfc6f2a043833560a5c615fe8,
+      type: 3}
+    placement: 7
+    position: {x: 0.045, y: 0.12, z: 0.12}
+    rotation: {x: 45, y: 0, z: 75}
