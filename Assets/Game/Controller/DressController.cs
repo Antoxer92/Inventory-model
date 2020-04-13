@@ -24,11 +24,6 @@ namespace Game
             return false; 
         }
 
-        public static void TakeOff(SlotType slotType, object personage)
-        {
-            throw new NotImplementedException();
-        }
-
         private static void TakeOff(SlotItem slotItem, PersonageModel personage)
         {
             G.self.user_inventory.Increase(slotItem.Asset.Classname);
