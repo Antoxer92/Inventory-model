@@ -162,6 +162,8 @@ public class InventoryWindow : BaseWindow
 
         _creation_items_queue.Clear();
         _inventory_item_views.RemoveRange(0, _inventory_item_views.Count);
+        _user_inventory.OnIncrease -= OnItemIncrease;
+        _user_inventory.OnDecrease -= OnItemDecrease;
     }
 
     private void DisposePersonagePanel()
